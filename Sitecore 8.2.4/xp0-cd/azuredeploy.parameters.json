@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "deploymentId": {
+      "value": "Add-Deployment-Id"
+    },
+    "cdMsDeployPackageUrl": {
+      "value": "{publicly accessible web deploy package configured to run as content delivery}"
+    },
+    "sqlServerLogin": {
+      "value": "admin"
+    },
+    "sqlServerPassword": {
+      "value": "setAp@ssw0rd"
+    },
+    "singleMsDeployPackageUrl": {
+      "value": "{publicly accessible web deploy package configured to run as all in one cms}"
+    },
+    "sitecoreAdminPassword": {
+      "value": "setAp@ssw0rd"
+    },
+    "analyticsMongoDbConnectionString": {
+      "value": "mongodb://username:password@your.mlab.com:46357/site_analytics"
+    },
+    "trackingLiveMongoDbConnectionString": {
+      "value": "mongodb://username:password@your.mlab.com:46357/site_tracking"
+    },
+    "trackingHistoryMongoDbConnectionString": {
+      "value": "mongodb://username:password@your.mlab.com:46357/site_tracking_history"
+    },
+    "trackingContactMongoDbConnectionString": {
+      "value": "mongodb://username:password@your.mlab.com:46357/site__tracking_contact"
+    },
+    "licenseXml": {
+      "value": "Copy the contents of your license xml here."
+    }
+  }
+}
